@@ -3,12 +3,6 @@
   <groupId>TY</groupId>
   <artifactId>RestAssured_API_Framework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
-   <!-- Force Eclipse and Maven to use a Java 8 JDK compiler-->
-   <properties>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
-   </properties>
 	  
  <dependencies>
 
@@ -20,7 +14,7 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
-    <!-- For validating the Response time -->
+    <!-- To validate the Response time -->
     <dependency>
         <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest</artifactId>
@@ -28,7 +22,7 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
-    <!-- For creating the JSON Object -->
+    <!-- To create the JSON Object -->
     <dependency>
         <groupId>com.googlecode.json-simple</groupId>
         <artifactId>json-simple</artifactId>
@@ -36,6 +30,7 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <!-- To make use of Unit Testing tool -->
     <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
@@ -51,40 +46,27 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
-    <!-- For validating the Schema-->
+    <!-- To validate the Schema-->
     <dependency>
         <groupId>io.rest-assured</groupId>
         <artifactId>json-schema-validator</artifactId>
         <version>5.1.1</version>
     </dependency>
 
-	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-	<dependency>
-	    <groupId>org.seleniumhq.selenium</groupId>
-	    <artifactId>selenium-java</artifactId>
-    	<version>3.141.59</version>
-	</dependency>
 	
-	<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-	<dependency>
+    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+    <dependency>
     	<groupId>io.github.bonigarcia</groupId>
 	    <artifactId>webdrivermanager</artifactId>
 	    <version>5.3.3</version>
-	</dependency>
-	
-	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-	<dependency>
-		<groupId>org.apache.poi</groupId>
-		<artifactId>poi-ooxml</artifactId>
-		<version>5.2.3</version>
-	</dependency>
-		
-	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-	<dependency>
+    </dependency>
+				
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
 		<groupId>mysql</groupId>
 		<artifactId>mysql-connector-java</artifactId>
 		<version>8.0.32</version>
-	</dependency>
+    </dependency>
 
  </dependencies>
    
