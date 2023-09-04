@@ -20,7 +20,7 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
-    <!-- For validating the Response time, we make use of this dependency -->
+    <!-- For validating the Response time -->
     <dependency>
         <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest</artifactId>
@@ -28,6 +28,7 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+    <!-- For creating the JSON Object -->
     <dependency>
         <groupId>com.googlecode.json-simple</groupId>
         <artifactId>json-simple</artifactId>
@@ -42,7 +43,7 @@
     </dependency>
  
     <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
-   
+   <!-- For Serialization & Deserialization -->
     <dependency> 
         <groupId>org.codehaus.jackson</groupId>
         <artifactId>jackson-mapper-asl</artifactId>
@@ -50,7 +51,7 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
-    <!-- For validating the Schema, we make use of this dependency -->
+    <!-- For validating the Schema-->
     <dependency>
         <groupId>io.rest-assured</groupId>
         <artifactId>json-schema-validator</artifactId>
